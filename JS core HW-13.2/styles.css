@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 60%/1 Verdana, Sans-Serif;
+  background: #ccc;
+}
+
+#container {
+  width: 830px;
+  height: 450px;
+  margin: 150px auto 0;
+}
+
+textarea {
+  margin: 0 0 5px;
+  padding: 10px;
+  width: 807px;
+  font: 1.5em/1 Verdana, Sans-Serif;
+  background: #fff;
+  border-radius: 8px;
+  resize: none;
+  outline: none;
+  border: none;
+}
+
+.keyboard {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 3px;
+}
+
+.key {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 2px;
+  font-size: medium;
+}
+
+.Backspace,
+.Tab {
+  width: 95px;
+}
+.Enter {
+  width: 82px;
+}
+.CapsLock {
+  width: 107px;
+}
+.Shift {
+  width: 125px;
+}
+.Space {
+  width: 100%;
+}
+.key:hover {
+  background-color: #f1f1f1;
+}
+.active {
+  color: crimson;
+  background-color: aquamarine;
+}
+.inactive {
+  background-color: "white";
+  color: "#000";
+}

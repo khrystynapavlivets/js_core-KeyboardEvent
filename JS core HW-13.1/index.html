@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container,
+    .block {
+      height: 300px;
+      width: 400px;
+      border-collapse: collapse;
+      margin: 0 auto;
+      box-sizing: border-box;
+      display: none;
+    }
+
+    .container td,
+    .block td {
+      height: 100px;
+      width: 33.3%;
+      border: 2px solid black;
+      box-sizing: border-box;
+      cursor: pointer;
+    }
+
+    .text {
+      font-weight: 800;
+      font-size: x-large;
+      cursor: pointer;
+    }
+
+    table {
+      display: none;
+    }
+
+    .image {
+      background-size: cover;
+
+    }
+  </style>
+</head>
+
+<body>
+  <p class="text colorText">Колір</p>
+  <p class="text imageText">Зображення</p>
+
+  <table id="colorBlock">
+    <tr>
+      <td class="color" style="background-color:cadetblue"></td>
+      <td class="color" style="background-color:brown"></td>
+      <td class="color" style="background-color:lightgreen"></td>
+    </tr>
+    <tr>
+      <td class="color" style="background-color:chartreuse ;"></td>
+      <td class="color" style="background-color: darkgrey;"></td>
+      <td class="color" style="background-color: crimson;"></td>
+    </tr>
+    <tr>
+      <td class="color" style="background-color: blue;"></td>
+      <td class="color" style="background-color: mediumorchid;"></td>
+      <td class="color" style="background-color: olive;"></td>
+    </tr>
+  </table>
+
+  <table id="imageBlock">
+    <tr>
+      <td class="image" style="background-image: url(./images/1547365376_1.jpg);"></td>
+      <td class="image"
+        style="background-image: url(./images/beautiful-shot-of-a-small-village-surrounded-by-a-lake-and-snowy-hills_181624-37802.avif);">
+      </td>
+      <td class="image"
+        style="background-image: url(./images/beautiful-shot-of-a-whet-field-with-a-cloudy-sky_181624-26320.avif);">
+      </td>
+    </tr>
+    <tr>
+      <td class="image"
+        style="background-image: url(./images/beautiful-summer-landscape-in-the-mountains_661209-520.avif);"></td>
+      <td class="image" style="background-image: url(./images/field-at-sunset_1204-65.avif);"></td>
+      <td class="image"
+        style="background-image: url(./images/beautiful-shot-of-a-small-village-surrounded-by-a-lake-and-snowy-hills_181624-37802.avif);">
+      </td>
+    </tr>
+    <tr>
+      <td class="image"
+        style="background-image: url(./images/gorgeous-foggy-sunrise-in-carpathian-mountains-lovely-summer-landscape-of-volovets-district-purple-flowers-on-grassy-meadows-and-forested-hill-in-fog_661209-71.avif);">
+      </td>
+      <td class="image" style="background-image: url(./images/mountains-lake_1398-1150.avif);"></td>
+      <td class="image"
+        style="background-image: url(./images/summer-landscape-in-mountains-and-the-blue-sky_661209-67.avif);"></td>
+    </tr>
+  </table>
+  <script src="./script.js"></script>
+</body>
+
+</html>
